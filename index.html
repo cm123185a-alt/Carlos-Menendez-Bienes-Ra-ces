@@ -1,1 +1,174 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Encuentra terrenos, casas y propiedades en venta en El Salvador con Carlos Menendez Bienes Raíces.">
+  <title>Carlos Menendez | Bienes Raíces El Salvador</title>
+  <style>
+    :root {
+      --verde: #123b2b;
+      --verde-claro: #1c5b40;
+      --dorado: #d6b56d;
+      --crema: #f8f6ef;
+      --texto: #26352d;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--texto);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--verde);
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      border-bottom: 3px solid var(--dorado);
+    }
+    .brand { font-size: 21px; font-weight: bold; }
+    .brand span { color: var(--dorado); }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+    .hero {
+      background: linear-gradient(120deg, #123b2b, #286047);
+      color: white;
+      text-align: center;
+      padding: 95px 20px;
+    }
+    .hero .eyebrow {
+      color: var(--dorado);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.15; }
+    .hero p { max-width: 650px; margin: 20px auto 30px; font-size: 18px; }
+    .btn {
+      display: inline-block;
+      background: var(--dorado);
+      color: #173526;
+      padding: 13px 23px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px;
+    }
+    .btn-outline {
+      border: 1px solid var(--dorado);
+      color: white;
+      background: transparent;
+    }
+    section { padding: 65px 7%; }
+    .section-title { text-align: center; color: var(--verde); }
+    .intro { max-width: 750px; text-align: center; margin: auto; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+      margin-top: 32px;
+    }
+    .card {
+      background: var(--crema);
+      border-radius: 8px;
+      padding: 28px;
+      border-bottom: 3px solid var(--dorado);
+    }
+    .card h3 { color: var(--verde); }
+    .symbol { font-size: 32px; }
+    .contact {
+      background: var(--verde);
+      color: white;
+      text-align: center;
+    }
+    .contact h2 { color: var(--dorado); }
+    footer {
+      background: #0b271c;
+      color: #ddd;
+      text-align: center;
+      padding: 22px;
+      font-size: 13px;
+    }
+    @media (max-width: 600px) {
+      header { justify-content: center; text-align: center; }
+      nav a { margin: 0 7px; }
+      .hero { padding: 65px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">CARLOS MENENDEZ <span>BIENES RAÍCES</span></div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="eyebrow">Tu próxima inversión comienza aquí</div>
+      <h1>Encuentra tu propiedad ideal en El Salvador</h1>
+      <p>Terrenos, casas y oportunidades inmobiliarias. Te acompañamos para encontrar una propiedad que se adapte a tus objetivos.</p>
+      <a class="btn" href="https://wa.me/50379211407?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20propiedades." target="_blank" rel="noopener">Consultar por WhatsApp</a>
+      <a class="btn btn-outline" href="#servicios">Conoce nuestros servicios</a>
+    </section>
+
+    <section id="servicios">
+      <div class="intro">
+        <h2 class="section-title">Soluciones inmobiliarias para ti</h2>
+        <p>Te ayudamos a explorar oportunidades de compra y venta de propiedades en todo El Salvador, con atención personalizada.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="symbol">⌂</div>
+          <h3>Terrenos y solares</h3>
+          <p>Encuentra terrenos para construir, vivir o desarrollar tu próximo proyecto.</p>
+        </article>
+        <article class="card">
+          <div class="symbol">⌂</div>
+          <h3>Casas y propiedades</h3>
+          <p>Explora opciones inmobiliarias según tus necesidades y presupuesto.</p>
+        </article>
+        <article class="card">
+          <div class="symbol">↗</div>
+          <h3>Inversiones inmobiliarias</h3>
+          <p>Identifica oportunidades y evalúa cada propiedad antes de tomar una decisión.</p>
+        </article>
+      </div>
+    </section>
+
+    <section style="background:#f8f6ef">
+      <div class="intro">
+        <h2 class="section-title">Atención personalizada</h2>
+        <p>Cuéntanos qué tipo de propiedad buscas, en qué zona y cuál es tu presupuesto. Te ayudaremos a dar el siguiente paso.</p>
+        <a class="btn" href="https://wa.me/50379211407?text=Hola%2C%20busco%20una%20propiedad%20en%20El%20Salvador." target="_blank" rel="noopener">Cuéntanos qué buscas</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <h2>¿Quieres comprar o vender una propiedad?</h2>
+      <p>Hablemos sobre tu próxima oportunidad inmobiliaria.</p>
+      <p><strong>Carlos Menendez | Bienes Raíces</strong></p>
+      <a class="btn" href="https://wa.me/50379211407?text=Hola%20Carlos%2C%20me%20interesa%20recibir%20informaci%C3%B3n%20inmobiliaria." target="_blank" rel="noopener">Escríbeme por WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Carlos Menendez Bienes Raíces · El Salvador
+  </footer>
+</body>
+</html>
+
